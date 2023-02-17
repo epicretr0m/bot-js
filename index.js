@@ -10,8 +10,8 @@ bot.on("ready", async () => {
 
     await bot.application.commands.set([
         {
-            name: "ping",
-            description: "Pong!"
+            name: "burak",
+            description: "github.com/cfreemepq"
         }
     ]);
 
@@ -22,6 +22,6 @@ bot.on("interactionCreate", (interaction) => {
 
     if (!interaction.isCommand()) return;
 
-    if (interaction.commandName === "ping")
-        interaction.reply("Pong!");
+    if (interaction.commandName === "burak")
+        interaction.reply("https://github.com/BUR-Ak-47");
 });
