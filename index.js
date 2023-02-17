@@ -2,9 +2,9 @@ const { Client } = require("discord.js");
 
 const bot = new Client({ intents: ["Guilds"] });
 console.log("Connexion au bot...");
-bot.login("MTA3NjE0OTUzODIwMjU5OTU1NQ.GUZYqe.wlyBwgao6EpVXPIh15PhkIucknH8l3FZtCQzgo")
-    .then(() => console.log("Connecté au bot !"))
-    .catch((error) => console.log("Impossible de se connecter au bot - " + error));
+bot.login("BOT_TOKEN")
+    .then(() => console.log("Connected to the bot"))
+    .catch((error) => console.log("Failed to connect to the bot - " + error));
 
 bot.on("ready", async () => {
 
@@ -15,7 +15,7 @@ bot.on("ready", async () => {
         }
     ]);
 
-    console.log("Le bot est prêt !");
+    console.log("The bot is ready!");
 });
 
 bot.on("interactionCreate", (interaction) => {
