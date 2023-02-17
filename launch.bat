@@ -1,5 +1,5 @@
 @echo off
 cd C:\Users\epicg\Downloads\Badge Bot
 node index.js
-echo Erreur dans le code
+echo Error
 pause > nul
