@@ -11,7 +11,7 @@ bot.on("ready", async () => {
     await bot.application.commands.set([
         {
             name: "burak",
-            description: "github.com/cfreemepq"
+            description: "github.com/bur-ak-47"
         }
     ]);
 
